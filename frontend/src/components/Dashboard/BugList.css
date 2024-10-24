@@ -1,0 +1,100 @@
+/* BugList.css */
+
+/* Basic styling for the bug list container */
+.bug-list {
+  background-color: #f9f9f9; /* Light background for consistency */
+  padding: 20px; /* Padding for spacing */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.button-container {
+  margin-bottom: 10px; /* Space below the button */
+}
+
+.clear-bugs-button {
+  background-color: #dc3545; /* Red background for clear button */
+  color: white; /* White text */
+  padding: 10px 15px; /* Button padding */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 16px; /* Font size */
+  margin-bottom: 20px; /* Space below the button */
+}
+
+.clear-bugs-button:hover {
+  background-color: #c82333; /* Darker shade on hover */
+}
+
+/* Style for bug list heading */
+.bug-list h2 {
+  margin-bottom: 15px; /* Space below the heading */
+  font-size: 24px; /* Font size for the heading */
+}
+
+/* Style for the bug table */
+.bug-table {
+  width: 100%; /* Full width for the table */
+  border-collapse: collapse; /* Collapse borders for cleaner look */
+}
+
+/* Table header styles */
+.bug-table th {
+  background-color: #007bff; /* Header background color */
+  color: white; /* Header text color */
+  padding: 10px; /* Padding inside header cells */
+  text-align: left; /* Align text to the left */
+}
+
+/* Table cell styles */
+.bug-table td {
+  border: 1px solid #ddd; /* Border for table cells */
+  padding: 10px; /* Padding inside table cells */
+}
+
+/* Bug item row hover effect */
+.bug-table tr:hover {
+  background-color: #f1f1f1; /* Light gray on hover */
+}
+
+/* Styling for individual bug items based on priority */
+.bug-item.high {
+  background-color: #ffcccb; /* Light red for high priority */
+}
+
+.bug-item.normal {
+  background-color: #fff8c4; /* Light yellow for normal priority */
+}
+
+.bug-item.low {
+  background-color: #c8e6c9; /* Light green for low priority */
+}
+/* Add new styles for the edit and delete buttons */
+.edit-button,
+.delete-button {
+  background-color: #007bff; /* Edit button color */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 14px; /* Font size */
+  margin-right: 5px; /* Space between buttons */
+}
+
+.delete-button {
+  background-color: #dc3545; /* Red background for delete button */
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker shade on hover for delete */
+}
+
+.edit-button:hover {
+  background-color: #0056b3; /* Darker shade on hover for edit */
+}
+
+/* Add styles for the new date column */
+.bug-table td:nth-child(3) {
+  text-align: center; /* Center align the date column */
+}

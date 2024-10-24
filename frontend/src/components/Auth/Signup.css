@@ -1,0 +1,73 @@
+/* Common styles for both Login and Signup pages */
+
+/* Center container for the form */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.auth-form {
+  background-color: white; /* White background for the form */
+  padding: 20px; /* Space inside the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 300px; /* Fixed width for the form */
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.auth-form h2 {
+  text-align: center; /* Centered title */
+  margin-bottom: 20px; /* Space below the title */
+  font-size: 24px; /* Font size for title */
+}
+
+/* Input fields */
+.auth-form input {
+  width: 100%; /* Full width */
+  padding: 10px; /* Space inside the input */
+  margin: 10px 0; /* Space above and below */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 16px; /* Font size */
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.auth-form input:focus {
+  border-color: #007bff; /* Border color on focus */
+  outline: none; /* Remove outline */
+}
+
+/* Submit button styling */
+.auth-form button {
+  width: 100%; /* Full width */
+  padding: 10px; /* Space inside the button */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.auth-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Optional: Add a link for navigation to the login page */
+.auth-form p {
+  text-align: center; /* Centered text */
+  margin-top: 20px; /* Space above the text */
+  font-size: 14px; /* Font size */
+}
+
+.auth-form p a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* No underline */
+}
+
+.auth-form p a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

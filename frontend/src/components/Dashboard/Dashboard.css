@@ -1,0 +1,40 @@
+/* Dashboard.css */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; /* Adjust this max-width as needed */
+}
+
+.form-container {
+  flex: 1; /* Allow form to take up available space */
+  margin-right: 20px; /* Space between form and bug list */
+}
+
+.bug-list {
+  flex: 1; /* Allow bug list to take up available space */
+}
+
+/* Additional styles for the bug table */
+.bug-table {
+  width: 100%; /* Ensure table takes full width */
+  border-collapse: collapse;
+}
+
+.bug-table th,
+.bug-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.bug-table th {
+  background-color: #f4f4f4; /* Header background color */
+}

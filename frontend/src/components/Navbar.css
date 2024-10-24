@@ -1,0 +1,54 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff; /* Navbar background color */
+  padding: 10px 20px; /* Spacing inside the navbar */
+  color: white; /* Text color */
+}
+/* Navbar.css */
+.navbar-logo {
+  height: 25px; /* Adjust the height as needed */
+  margin-right: 10px; /* Space between the logo and text */
+  background-color: chocolate; /* Ensure the background of the image is transparent */
+  display: inline-block; /* Helps to ensure it aligns properly with text */
+  border: none; /* Remove any border around the image */
+}
+
+.navbar h1 {
+  margin: 0; /* Remove default margin */
+}
+
+.navbar ul {
+  list-style: none; /* Remove bullet points from the list */
+  display: flex; /* Display list items in a row */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navbar li {
+  margin-left: 20px; /* Space between the items */
+}
+
+.navbar a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Link text color */
+  font-weight: bold; /* Make links bold */
+}
+
+.navbar button {
+  padding: 8px 15px; /* Button padding */
+  background-color: #dc3545; /* Red color for logout button */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+  font-size: 16px; /* Button font size */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.navbar button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}

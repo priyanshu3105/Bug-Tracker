@@ -1,0 +1,62 @@
+/* Login.css */
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4; /* Background color */
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* Set a fixed width for the form */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.auth-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.auth-form button {
+  padding: 10px;
+  background-color: #007bff; /* Blue color for login button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.auth-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.signup-button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #28a745; /* Green color for signup button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}

@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.button-container {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space buttons evenly */
+  margin: 20px; /* Add margin for spacing */
+}
+
+.add-bug-button,
+.clear-bugs-button {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px; /* Button padding */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 15px; /* Font size */
+  flex: 0 1 120px; /* Make buttons take equal width */
+  margin: 0 5px; /* Space between buttons */
+}
+
+.add-bug-button:hover,
+.clear-bugs-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.clear-bugs-button {
+  background-color: #dc3545; /* Different background color for clear button */
+}
+
+.clear-bugs-button:hover {
+  background-color: #c82333; /* Darker shade on hover for clear button */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.bug-form,
+.bug-list {
+  margin: 20px;
+}
+
+.bug-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.bug-item.high {
+  border-left: 4px solid red;
+}
+
+.bug-item.normal {
+  border-left: 4px solid yellow;
+}
+
+.bug-item.low {
+  border-left: 4px solid green;
+}
